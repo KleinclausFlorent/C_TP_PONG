@@ -56,9 +56,21 @@
 			<Add directory="D:/SDL2-2.0.5/i686-w64-mingw32/lib" />
 			<Add directory="D:/SDL2-2.0.5/SDL2_ttf-devel-2.0.14-mingw/SDL2_ttf-2.0.14/i686-w64-mingw32/lib" />
 		</Linker>
+		<Unit filename="SdlFont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SdlFont.h" />
+		<Unit filename="balle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="balle.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="raquettes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="raquettes.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
